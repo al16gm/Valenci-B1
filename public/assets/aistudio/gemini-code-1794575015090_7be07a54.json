@@ -1,0 +1,93 @@
+[
+  {
+    "dia": 1,
+    "titol": "Morfologia i el Complement Directe (I)",
+    "objectiu": "Automatitzar presents irregulars i eliminar la preposició 'a' davant de persona.",
+    "teoria": "En valencià, el Complement Directe MAI porta la preposició 'a', ni tan sols si és una persona. Exemple incorrecte: 'Ahir vaig veure a la teua germana'. Correcte: 'Ahir vaig veure la teua germana'. Verbs clau a dominar hui: voler (jo vull), poder (jo puc), eixir (jo isc).",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Quina frase és correcta per a l'examen B1?",
+      "opcions": ["He cridat al metge perquè m'ajude.", "He cridat el metge perquè m'ajude."],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Actua com un examinador oficial CIEACOVA B1. Et descriuré la meua rutina. La meua debilitat és que pose la preposició 'a' davant del Complement Directe (ex: 'veig a Joan'). Escolta'm i detín-me IMMEDIATAMENT si cometa aquest error o si conjugue malament els verbs 'voler' o 'eixir'. Si ho faig bé, fes-me 2 preguntes ràpides sobre la meua rutina."
+  },
+  {
+    "dia": 2,
+    "titol": "Morfologia i el Complement Directe (II)",
+    "objectiu": "Consolidar verbs irregulars: saber, tindre, i pràctica de CD sense 'a'.",
+    "teoria": "Recorda la norma d'ahir: cap 'a' davant del Complement Directe. Hui afegim l'automatització dels verbs tindre (jo tinc, tu tens) i saber (jo sé, tu saps). Evita traduir literalment l'estructura castellana.",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Com traduiries 'Conozco a tu amigo' de manera normativa?",
+      "opcions": ["Conec al teu amic.", "Conec el teu amic."],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Farem un roleplay. Ets un company de faena i m'estàs presentant l'equip. Jo he de dir si els conec o no, usant els verbs 'saber' i 'conéixer'. Penalitza'm greument si dic 'conec a' en lloc de 'conec' directe."
+  },
+  {
+    "dia": 3,
+    "titol": "La Narració Temporal: Passat vs. Imperfet",
+    "objectiu": "Dominar la narració per al monòleg evitant formes simples.",
+    "teoria": "Usa el Passat Perifràstic (vaig anar, vas fer, va dir) per a accions puntuals i acabades (El passat indefinit 'aní', 'fiu' sol ser un calc col·loquial). Usa el Pretèrit Imperfet (anava, feia, deia) per a descriure hàbits en el passat o el decorat de l'acció.",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Tria l'opció correcta per a completar: 'Quan ___ xicotet, sempre ___ al carrer.'",
+      "opcions": ["fui / vaig jugar", "era / jugava"],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Actua com a examinador B1. Et relataré una anècdota d'un viatge passat. Para atenció a l'ús del passat perifràstic vs. imperfet. Si faig un calc usant el pretèrit indefinit simple (ex: 'aní', 'cantí'), marca l'error com 'ALERTA DE CALC' i obliga'm a repetir l'oració."
+  },
+  {
+    "dia": 4,
+    "titol": "Neteja Sintàctica: Impersonal i Obligació",
+    "objectiu": "Eliminar 'hi han' i 'tindre que'.",
+    "teoria": "El verb haver-hi és impersonal: 'Hi ha moltes persones' (MAI 'hi han'). Per a obligacions, 'tindre que' és un barbarisme absolut. Usa 'haver de + infinitiu' (he d'anar) o 'caldre + infinitiu' (cal anar).",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Demà tenim un examen i... ",
+      "opcions": ["hi han molts temes que tinc que estudiar.", "hi ha molts temes que he d'estudiar."],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Actua com el meu nou cap. Explica'm les normes de l'oficina. Jo respondré confirmant que ho he entés usant 'haver de' i 'caldre', i descrivint què 'hi ha' al meu escriptori. Si dic 'tindre que' o 'hi han', penalitza'm i fes-me reformular."
+  },
+  {
+    "dia": 5,
+    "titol": "Preposicions per/per a i Caiguda davant 'que'",
+    "objectiu": "Distingir per/per a i eliminar preposicions il·lícites.",
+    "teoria": "'Per a': Finalitat, destinació i límit temporal (Ho faig per a tu). 'Per': Causa, lloc de pas (Ho faig per amor). Norma d'or: Les preposicions (a, de, en, amb) cauen sempre davant de la conjunció 'que' (Estic segur que vindràs, no 'de que').",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "M'alegre molt ___ hages aprovat.",
+      "opcions": ["de que", "(cap preposició, buit)"],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Pregunta'm sobre els meus plans de futur. Respondré usant 'per' i 'per a', i frases amb verbs de sentiment (alegrar-se, estar segur) seguits de 'que'. Corregeix-me de forma implacable si no faig caure les preposicions davant del 'que'."
+  },
+  {
+    "dia": 6,
+    "titol": "Pronoms de Supervivència (CD i Neutre)",
+    "objectiu": "Automatitzar 'el/la/els/les' i 'ho' per a evitar repeticions.",
+    "teoria": "Substitueix el CD determinat (amb article) per: el, la, els, les (Compre el cotxe -> El compre). Si és una oració completa o 'això/allò', s'usa el neutre 'ho' (No sé si vindrà -> No ho sé).",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Entens el que t'he explicat?",
+      "opcions": ["Sí, l'entenc.", "Sí, ho entenc."],
+      "resposta_correcta": 1
+    },
+    "prompt_ia": "Farem un joc ràpid de preguntes sobre xarxes socials. A cada pregunta, he de respondre substituint l'objecte principal per un pronom de CD (el, la, els, les) o neutre (ho). Avisa'm si repetisc el substantiu en compte de pronominalitzar."
+  },
+  {
+    "dia": 7,
+    "titol": "Simulacre Monòleg: Arquitectura Argumentativa",
+    "objectiu": "Aplicar plantilla fixa per a donar opinions sense bloquejos.",
+    "teoria": "Memoritza esta estructura inamovible per a l'oral: 'Al meu parer... (Opinió) -> El motiu principal és que... (Causa) -> A més a més,... (Addició) -> Per exemple,... (Exemple)'.",
+    "exercici": {
+      "tipus": "test",
+      "pregunta": "Quin connector usaries per a contrastar una idea elegantment en nivell B1?",
+      "opcions": ["Tanmateix", "Però així"],
+      "resposta_correcta": 0
+    },
+    "prompt_ia": "Assumeix el rol d'examinador. Demana'm la meua opinió sobre 'El teletreball vs. Oficina'. Et respondré usant una plantilla argumentativa. Avalua exclusivament la meua 'Coherència i Cohesió' (sobre 5 punts) detectant l'ús de connectors."
+  }
+]

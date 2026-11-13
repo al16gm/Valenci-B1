@@ -1,0 +1,6 @@
+{
+  "name": "CIEACOVA B1 - Pla 28 Dies",
+  "description": "Aplicació d'aprenentatge intensiu en 28 dies per a preparar la prova CIEACOVA B1 de valencià amb píndoles teòriques, exercicis ràpids i pràctica oral amb IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

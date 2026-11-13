@@ -1,0 +1,440 @@
+[
+  {
+    "dia": 1,
+    "titol": "Morfologia i el Complement Directe (I)",
+    "objectiu": "Automatitzar presents irregulars i eliminar la preposició 'a' davant de persona.",
+    "teoria": "En valencià, el Complement Directe MAI porta la preposició 'a', ni tan sols si és una persona. Exemple incorrecte: 'Ahir vaig veure a la teua germana'. Correcte: 'Ahir vaig veure la teua germana'. Verbs clau a dominar hui: voler (jo vull), poder (jo puc), eixir (jo isc).",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Ahir de vesprada vaig cridar ___ metge.",
+        "opcions": ["al", "el"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Nosaltres no ___ vindre a la reunió.",
+        "opcions": ["poguem", "podem"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Has convidat ___ teus cosins?",
+        "opcions": ["als", "els"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Jo tots els divendres ___ prompte de la faena.",
+        "opcions": ["isc", "eixc"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com un examinador oficial CIEACOVA B1. Et descriuré la meua rutina. La meua debilitat és que pose la preposició 'a' davant del Complement Directe (ex: 'veig a Joan'). Escolta'm i detín-me IMMEDIATAMENT si cometa aquest error o si conjugue malament els verbs 'voler', 'poder' o 'eixir'. Si ho faig bé, fes-me 2 preguntes ràpides sobre la meua rutina."
+  },
+  {
+    "dia": 2,
+    "titol": "Morfologia i el Complement Directe (II)",
+    "objectiu": "Consolidar verbs irregulars: saber, tindre, i pràctica de CD sense 'a'.",
+    "teoria": "Recorda la norma d'ahir: cap 'a' davant del Complement Directe. Hui afegim l'automatització dels verbs tindre (jo tinc, tu tens) i saber (jo sé, tu saps).",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "M'agradaria contractar ___ director comercial.",
+        "opcions": ["al", "el"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Jo no ___ on he deixat les claus.",
+        "opcions": ["sé", "sab"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Coneixes ___ nou veí del cinqué?",
+        "opcions": ["al", "el"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Ells no ___ temps per a fer-ho tot.",
+        "opcions": ["tenen", "tinguen"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Farem un roleplay. Ets un company de faena i m'estàs presentant l'equip de la nova empresa. Jo he de dir si els conec o no els conec a tots, usant els verbs 'saber' i 'conéixer'. Penalitza'm greument si dic 'conec a' en lloc de 'conec' de manera directa."
+  },
+  {
+    "dia": 3,
+    "titol": "La Narració Temporal: Passat vs. Imperfet",
+    "objectiu": "Dominar la narració per al monòleg evitant els calcs del pretèrit indefinit castellà.",
+    "teoria": "Usa el Passat Perifràstic (vaig anar, vas fer, va dir) per a accions puntuals i acabades (evita dir 'aní', 'fiu'). Usa el Pretèrit Imperfet (anava, feia, deia) per a descriure hàbits en el passat o el decorat de l'acció.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "L'any passat ___ a París de viatge.",
+        "opcions": ["vaig anar", "aní"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Quan ___ xicotet, m'agradava molt jugar al carrer.",
+        "opcions": ["fui", "era"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Mentre ell preparava el sopar, jo ___ la televisió.",
+        "opcions": ["vaig mirar", "mirava"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Ahir de sobte ___ la llum de tot l'edifici.",
+        "opcions": ["se'n va anar", "se n'anava"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com a examinador B1. Et relataré una anècdota d'un viatge passat. Para atenció a l'ús del passat perifràstic vs. imperfet. Si faig un calc usant el pretèrit indefinit simple (ex: 'aní', 'cantí'), marca l'error com 'ALERTA DE CALC' i obliga'm a repetir l'oració correctament."
+  },
+  {
+    "dia": 4,
+    "titol": "Neteja Sintàctica: Impersonal i Obligació",
+    "objectiu": "Eliminar completament els barbarismes 'hi han' i 'tindre que'.",
+    "teoria": "El verb haver-hi és impersonal i INVARIABLE: 'Hi ha moltes persones' (MAI 'hi han'). Per a obligacions, 'tindre que' està totalment prohibit en B1. Usa 'haver de + infinitiu' (he d'anar) o 'caldre + infinitiu' (cal anar).",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "A la reunió de hui ___ molts temes a tractar.",
+        "opcions": ["hi han", "hi ha"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Demà és l'últim dia, ___ entregar el document.",
+        "opcions": ["tinc que", "he d'"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Ací diu que per a entrar ___ ensenyar el DNI.",
+        "opcions": ["es té que", "cal"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Aquest estiu no ___ moltes pluges.",
+        "opcions": ["hi ha hagut", "hi han hagut"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com el meu nou cap. Explica'm les normes estrictes de l'oficina. Jo respondré confirmant que ho he entés usant exclusivament 'haver de' i 'caldre', i descrivint què 'hi ha' al meu escriptori. Si dic 'tindre que' o 'hi han', penalitza'm durament i fes-me reformular."
+  },
+  {
+    "dia": 5,
+    "titol": "Preposicions per/per a i Caiguda davant 'que'",
+    "objectiu": "Distingir per/per a i eliminar preposicions il·lícites davant la conjunció 'que'.",
+    "teoria": "'Per a': Finalitat, destinació i límit temporal (Açò és per a tu). 'Per': Causa, lloc de pas (Passe per València). Norma d'or: Les preposicions (a, de, en, amb) cauen SEMPRE davant de la conjunció 'que' (Estic segur que vindràs, mai 'estic segur de que').",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Aquest llibre és ___ llegir-lo a l'estiu.",
+        "opcions": ["per a", "per"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "M'alegre molt ___ hages aprovat el nivell B1.",
+        "opcions": ["de que", "(cap preposició)"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Sempre passegem ___ la vora de la mar.",
+        "opcions": ["per a", "per"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Estic totalment d'acord ___ canvien la data.",
+        "opcions": ["amb que", "que"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Pregunta'm sobre els meus plans de futur. Respondré usant obligatòriament 'per' i 'per a', i frases amb verbs de sentiment i opinió (alegrar-se, estar segur, estar d'acord) seguits de 'que'. Corregeix-me de forma implacable si no faig caure les preposicions davant del 'que'."
+  },
+  {
+    "dia": 6,
+    "titol": "Pronoms de Supervivència (CD i Neutre)",
+    "objectiu": "Automatitzar 'el, la, els, les' i 'ho' per a evitar repeticions feixugues de vocabulari.",
+    "teoria": "Substitueix el CD determinat (coses concretes amb article) per: el, la, els, les (Compre el cotxe -> El compre). Si és una oració completa o 'això/allò', s'usa el neutre 'ho' (No sé si vindrà -> No ho sé).",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Has portat les claus de casa? Sí, ___ he portades.",
+        "opcions": ["les", "hi"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Saps on és el meu telèfon? No, no ___ sé.",
+        "opcions": ["el", "ho"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Veus eixe xic d'allà? Sí, ___ veig.",
+        "opcions": ["ho", "el"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Entens tot el que estic explicant? Sí, ___ entenc.",
+        "opcions": ["l'", "ho"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Farem un joc ràpid de preguntes sobre tecnologia. A cada pregunta teua, he de respondre substituint l'objecte principal per un pronom de CD (el, la, els, les) o neutre (ho). Avisa'm si repetisc el substantiu en compte de pronominalitzar."
+  },
+  {
+    "dia": 7,
+    "titol": "Repàs Setmana 1 i Arquitectura Argumentativa",
+    "objectiu": "Validar tots els coneixements de la setmana i fixar la plantilla d'opinió B1.",
+    "teoria": "Estructura d'opinió inamovible per a l'oral: 'Al meu parer... (Opinió) -> El motiu principal és que... (Causa) -> A més a més,... (Addició) -> Per exemple,... (Exemple)'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Identifica l'error greu en esta frase: 'Hi han persones que tenen que estudiar molt per a l'examen'.",
+        "opcions": ["Hi han / tenen que", "per a"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Quina seqüència de connectors és ideal per a argumentar?",
+        "opcions": ["Al meu parer -> perquè -> així que", "Al meu parer -> El motiu és que -> A més a més"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Ahir vaig veure ___ teu germà.",
+        "opcions": ["al", "el"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Assumeix el rol d'examinador. Demana'm la meua opinió sobre 'L'ús dels telèfons mòbils a les escoles'. Et respondré usant una plantilla argumentativa (Al meu parer, el motiu principal, a més a més, per exemple). Avalua la meua 'Coherència' i penalitza'm directament si faig algun calc (tindre que, hi han, a davant de CD)."
+  },
+  {
+    "dia": 8,
+    "titol": "Pronoms Adverbials d'Alt Impacte (EN)",
+    "objectiu": "Dominar el pronom 'en' per a parlar de quantitats.",
+    "teoria": "El pronom EN substitueix el Complement Directe quan no porta article (quantitats, números, 'alguns', 'molts'). Exemple: 'Tens pomes?' -> 'Sí, EN tinc'. 'Quants germans tens?' -> 'EN tinc dos'. Aquest pronom dóna molts punts a l'oral.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Tens diners? No, no ___ tinc.",
+        "opcions": ["en", "els"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Quantes cadires necessites? ___ necessite quatre.",
+        "opcions": ["les", "En"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Vols un poc de pastís? Sí, dóna'___ un tros.",
+        "opcions": ["me'n", "m'ho"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Has comprat tomaques? Sí, ___ he comprat.",
+        "opcions": ["n'", "les"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Farem un roleplay B1. Ets el meu amic i estem organitzant un sopar d'aniversari. Pregunta'm constantment per quantitats d'ingredients (quantes tomaques queden, quants convidats vénen, si he comprat vi). Força'm a utilitzar el pronom feble 'EN' en les meues respostes curtes. No avances fins que l'use correctament."
+  },
+  {
+    "dia": 9,
+    "titol": "Pronoms Adverbials d'Alt Impacte (HI)",
+    "objectiu": "Dominar el pronom 'hi' per a parlar de llocs i evitar repeticions.",
+    "teoria": "El pronom HI substitueix complements de lloc (on anem) i complements introduïts per preposicions com 'a', 'en' o 'amb' (excepte 'de'). Exemple: 'Vas a Madrid?' -> 'Sí, HI vaig'. 'Penses en l'examen?' -> 'Sí, HI pense'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Vas a la platja demà? No, no ___ aniré.",
+        "opcions": ["hi", "la"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Estàs d'acord amb la proposta? Sí, ___ estic d'acord.",
+        "opcions": ["ho", "hi"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Quantes persones aniran al concert? No ho sé, no ___ vaig.",
+        "opcions": ["en", "hi"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Has deixat el cotxe al garatge? Sí, l'___ he deixat.",
+        "opcions": ["hi", "ho"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Ets un examinador preguntant sobre hàbits d'oci. Fes-me preguntes sobre llocs on vaig el cap de setmana (cine, muntanya, teatre) i si participe en certes activitats. He de contestar utilitzant el pronom 'HI' obligatòriament per a no repetir el lloc."
+  },
+  {
+    "dia": 10,
+    "titol": "Connectors de Contrast (Eliminant el 'però')",
+    "objectiu": "Pujar la nota de Cohesió demostrant vocabulari d'enllaç de nivell intermedi.",
+    "teoria": "Tothom sap dir 'però'. En B1 has de demostrar més repertori per a contrastar idees. Substitueix-lo estratègicament per: 'Tanmateix' (Sin embargo), 'Així i tot' (Aun así), o l'estructura 'D'una banda... d'altra banda'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "És un cotxe molt car; ___, l'he comprat perquè m'agrada.",
+        "opcions": ["per a", "tanmateix"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "___ el preu és alt, però ___ la qualitat és excel·lent.",
+        "opcions": ["D'una banda / d'altra banda", "Per un costat / per un altre"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Va ploure moltíssim. ___, vam decidir eixir a passejar.",
+        "opcions": ["Malgrat això", "Llavors"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Com a entrenador lingüístic, proposa'm un dilema (ex: viure de lloguer al centre vs. comprar als afores). Jo argumentaré els pros i contres. Si la meua resposta no conté l'estructura 'D'una banda... d'altra banda' i el connector 'tanmateix', assenyala-ho com una falta de cohesió i fes-me repetir-ho."
+  },
+  {
+    "dia": 11,
+    "titol": "Tàctiques de Negociació Verbal (Part 1)",
+    "objectiu": "Preparació per a la Interacció en Parella: prendre i cedir el torn sense silenci.",
+    "teoria": "En l'examen oral de parelles, callar és suspendre. Mai et quedes callat. Fórmules per a prendre el torn: 'I tu, com ho veus?', 'Què et sembla si...?'. Fórmules per a discrepar educadament: 'Entenc el que dius, ara bé...', 'Això és cert, però hem de considerar...'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Quina frase demostra més fluïdesa per a passar el torn a la teua parella d'examen?",
+        "opcions": ["Ja he acabat.", "I tu, quina opinió en tens?"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Per a discrepar suaument d'una idea molt extrema del teu company...",
+        "opcions": ["Això és mentida, jo no vull fer això.", "Respecte la teua postura, ara bé, crec que l'altra opció és més pràctica."],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Per a proposar una solució conjunta al final de la negociació...",
+        "opcions": ["Aleshores, què et sembla si triem esta opció i arribem a un acord?", "Bé, fem el que tu vulgues."],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com la meua parella d'examen en la prova d'Interacció B1. Hem de decidir quin regal de jubilació li fem al nostre cap. Tu vols regalar-li un viatge car, i jo vull fer un regal solidari econòmic. Inicia tu la conversa amb els teus arguments i cedix-me el torn. L'objectiu és tindre 3 intercanvis rebatent educadament les idees usant fórmules de negociació."
+  },
+  {
+    "dia": 12,
+    "titol": "Lèxic de Precisió i Falsos Amics",
+    "objectiu": "Eliminar castellanismes de vocabulari quotidià.",
+    "teoria": "Hi ha paraules que delaten la traducció mental del castellà i resten punts en Riquesa Lèxica. Aprén estos clàssics: 'A lo millor' -> 'Potser'. 'Despedir' (de la faena) -> 'Acomiadar'. 'Despejar' -> 'Buidar / Aclarir'. 'Enfermetat' -> 'Malaltia'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "___ plourà aquesta vesprada, agafa el paraigua.",
+        "opcions": ["A lo millor", "Potser"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Han hagut de ___ vint treballadors de la fàbrica.",
+        "opcions": ["despedir", "acomiadar"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "He faltat a classe a causa d'una ___.",
+        "opcions": ["enfermetat", "malaltia"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Hem de ___ de l'habitació tots estos trastos vells.",
+        "opcions": ["llevar", "buidar / llevar"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Planteja'm tres preguntes ràpides sobre la meua salut, la meua faena i els meus plans per a la setmana que ve. Intenta induir-me a utilitzar els falsos amics 'a lo millor', 'enfermetat' i 'despedir'. Corregeix-me si no utilitze les variants correctes en valencià."
+  },
+  {
+    "dia": 13,
+    "titol": "Els Temps de Futur i Hipòtesi (Condicional)",
+    "objectiu": "Estructurar respostes per a solucionar problemes en l'examen oral.",
+    "teoria": "En la Interacció sempre et demanaran que proposes solucions. Has de dominar el Condicional ('Jo faria', 'hauríem d'anar', 'seria millor') i el Futur ('Anirem', 'podrem'). Vigila l'accentuació i evita el calc 'vaig a fer' per 'faré' sempre que pugues.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Si tinguera més temps, ___ més esport.",
+        "opcions": ["faria", "faré"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Per a solucionar aquest problema de trànsit, jo crec que ___ tallar els carrers centrals.",
+        "opcions": ["tindríem que", "hauríem de"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "L'any que ve nosaltres ___ a viure als afores.",
+        "opcions": ["anirem", "aniguem"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Què ___ si et tocara la loteria?",
+        "opcions": ["faries", "faràs"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Ets un examinador plantejant una situació hipotètica. 'Imagina que l'ajuntament et dóna 10.000 euros per a millorar el teu barri'. Fes-me preguntes sobre què faria jo exactament amb els diners. Analitza l'ús dels meus temps condicionals i futurs."
+  },
+  {
+    "dia": 14,
+    "titol": "Simulacre Monòleg 2 i Autoavaluació Mitja",
+    "objectiu": "Aplicar tot el vocabulari, pronoms i estructures sota pressió de temps.",
+    "teoria": "Tanquem la Quinzena 1. Repassa mentalment abans de parlar: NO a davant de persona, NO 'tindre que', usa 'Tanmateix', usa 'Potser', i usa 'Al meu parer'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Marcaràs alguna diferència a l'examen si utilitzes 'D'una banda... d'altra banda' en compte de 'Però'?",
+        "opcions": ["No importa gens", "És fonamental per a aprovar la Cohesió"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Quin error és més greu en CIEACOVA B1?",
+        "opcions": ["Dir 'tinc que anar'", "Equivocar-se en un accent escrit obert/tancat"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Com dius 'Hi han moltes taules' correctament?",
+        "opcions": ["Hi ha moltes taules", "Estan moltes taules"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com el tribunal oficial B1. Planteja'm un monòleg sobre 'Els avantatges i inconvenients de comprar per Internet'. Tinc 3 minuts per a desenvolupar-lo. Avalua exclusivament tres coses amb màxima duresa: 1. Presència de la preposició 'a' davant de CD. 2. Ús de 'tindre que' o 'hi han'. 3. Si he utilitzat connectors de contrast i ordenació."
+  }
+]

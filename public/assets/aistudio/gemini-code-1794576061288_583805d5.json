@@ -1,0 +1,197 @@
+[
+  {
+    "dia": 15,
+    "titol": "Caiguda de Preposicions (Nivell Avançat)",
+    "objectiu": "Consolidar l'absència de preposició davant de la conjunció 'que'.",
+    "teoria": "En valencià no existeix el 'dequeísmo' ni el 'aqueísmo'. Davant de la paraula 'que' (conjunció), les preposicions 'a', 'de', 'en' i 'amb' s'eliminen obligatòriament. Exemple: 'Pense EN la faena' -> 'Pense QUE no acabarem'. 'Tinc ganes DE jugar' -> 'Tinc ganes QUE juguem'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Estic segur ___ vindrà prompte.",
+        "opcions": ["de que", "que"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Sempre s'acostuma ___ fer-ho així.",
+        "opcions": ["a", "en"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Confie ___ tot eixirà bé a l'examen.",
+        "opcions": ["en que", "que"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "M'han amenaçat ___ tancar l'empresa.",
+        "opcions": ["amb que", "que"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Assumeix el rol d'examinador. Farem un roleplay on jo seré el director d'una escola i tu el president de l'AMPA. Discutirem sobre les normes del centre. Usa construccions com 'estar d'acord amb', 'tindre ganes de', 'pensar en'. Jo respondré amb frases introduïdes per 'que'. Detín-me si utilitze preposicions davant de 'que' (ex: de que, en que)."
+  },
+  {
+    "dia": 16,
+    "titol": "Vocabulari Temàtic I: La Ciutat i l'Habitatge",
+    "objectiu": "Adquirir lèxic de B1 clau i evitar castellanismes recurrents.",
+    "teoria": "Evita estes traduccions literals del castellà. 'Basura' -> Fems / Brossa. 'Acera' -> Vorera. 'Peató' -> Vianant. 'Alquiler' -> Lloguer. 'Gastos' -> Despeses. Usar aquestes paraules correctes dóna molts punts a la prova oral.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Visc de ___, no he comprat el pis.",
+        "opcions": ["lloguer", "alquiler"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "He de baixar els ___ abans de sopar.",
+        "opcions": ["fems", "basures"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Les motos no poden aparcar a la ___.",
+        "opcions": ["vorera", "acera"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Aquest mes hem tingut moltes ___ d'electricitat.",
+        "opcions": ["gastos", "despeses"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Farem la primera part de la prova oral (Monòleg). El tema és: 'Viure al centre de la ciutat o viure a un poble xicotet: Avantatges i inconvenients'. Tinc 3 minuts per a parlar. Escolta'm i, quan acabe, avalua especialment la meua Riquesa Lèxica. Penalitza si dic castellanismes com 'acera, alquiler, gastos o basura'."
+  },
+  {
+    "dia": 17,
+    "titol": "Pronoms Relatius de Supervivència",
+    "objectiu": "Construir oracions complexes sense caure en el calc 'el que' / 'la que'.",
+    "teoria": "En valencià, el relatiu més comú és 'que' (El llibre que llisc). Però darrere de preposició, cal anar amb compte: MAI digues 'el llibre en el que està'. Usa 'en què' o 'en el qual'. Per a persones, usa 'qui' (L'amic amb qui visc).",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "El poble ___ vaig nàixer és molt xicotet.",
+        "opcions": ["en el que", "on / en què"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "L'empresa per a ___ treballe és internacional.",
+        "opcions": ["la que", "la qual"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "La xica amb ___ he parlat és la cap de vendes.",
+        "opcions": ["qui / la qual", "la que"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "El motiu ___ m'he enfadat és molt greu.",
+        "opcions": ["pel que", "pel qual"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Actua com un entrevistador de faena per a un lloc de gestió. Em faràs preguntes sobre la meua experiència prèvia, els projectes on he participat i els companys amb els quals he treballat. Jo he de contestar utilitzant pronoms relatius darrere de preposició (en què, amb qui, per al qual). Corregeix-me immediatament si utilitze el calc castellà 'en el que' o 'amb el que'."
+  },
+  {
+    "dia": 18,
+    "titol": "Tàctiques de Negociació Verbal (Part 2)",
+    "objectiu": "Comportar-se activament en la interacció oral evitant el silenci.",
+    "teoria": "A l'hora de negociar a l'examen, has d'oferir alternatives i tancar acords. Fórmules per a proposar: 'Què et sembla si...? / Per què no...?'. Fórmules per a acceptar: 'Tens raó, no ho havia pensat'. Fórmules de tancament: 'Aleshores, arribem a un acord? / Quedem en això doncs?'.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Per a proposar una idea nova al teu company, quina fórmula és millor?",
+        "opcions": ["Farem això i punt.", "Què et sembla si mirem una altra opció?"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Com acceptes parcialment la idea de l'altre?",
+        "opcions": ["Això és veritat, però podríem...", "Val, tu guanyes."],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Per a tancar la conversa al final dels 4 minuts...",
+        "opcions": ["Adéu.", "Aleshores, arribem a un acord?"],
+        "resposta_correcta": 1
+      }
+    ],
+    "prompt_ia": "Farem la segona part de l'oral (Interacció). Hem de decidir quin regal de noces fer a un amic en comú (pressupost 200€). Jo iniciaré la conversa, proposant regalar-li una paellera i accessoris. Tu no estaràs d'acord. Hem de negociar durant 4 torns i jo he d'utilitzar fórmules per a demanar la teua opinió i intentar arribar a un acord. Avalua la meua proactivitat."
+  },
+  {
+    "dia": 19,
+    "titol": "Vocabulari Temàtic II: Treball i Tecnologia",
+    "objectiu": "Fixar lèxic laboral i digital per a l'Àrea d'Expressió.",
+    "teoria": "Revisa les següents paraules de B1: 'Sueldo' -> Sou. 'Huelga' -> Vaga. 'Ordenador' -> Ordinador. 'Pantalla' (no 'pantalla'). 'Correu' (no 'correo'). 'Trametre/Enviar' (no 'mandar').",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Ahir vam cobrar el ___ de la faena.",
+        "opcions": ["sueldo", "sou"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "T'he ___ el document per correu electrònic.",
+        "opcions": ["tramés", "mandat"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Els treballadors estan en ___ per a demanar millores.",
+        "opcions": ["vaga", "huelga"],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Estic mirant l'___ però no s'encén.",
+        "opcions": ["ordinador", "ordenador"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com a examinador i planteja'm un Monòleg de 3 minuts sobre el tema: 'L'impacte del teletreball en la vida familiar i econòmica'. Quan lliure la meua resposta, avalua l'ús de lèxic específic del treball (sou, vaga, ordinador, horaris) i corregeix qualsevol calc com 'sueldo' o 'huelga'."
+  },
+  {
+    "dia": 20,
+    "titol": "L'Expressió Escrita: L'Email i les 150 Paraules",
+    "objectiu": "Dominar l'estructura d'un correu electrònic formal/informal sense fer calcs.",
+    "teoria": "L'EE exigeix mínim 150 paraules. Salutació formal: 'Benvolgut,' / 'Benvolguda,' (MAI 'Estimat' o 'Querido'). Salutació informal: 'Hola, Joan:'. Comiat formal: 'Atentament,' / 'Cordialment,'. Comiat informal: 'Una abraçada,'. Usa paràgrafs curts i subjecte explícit.",
+    "exercicis": [
+      {
+        "tipus": "test",
+        "pregunta": "Com comences un correu a l'alcalde del teu poble?",
+        "opcions": ["Estimat alcalde:", "Benvolgut alcalde,"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Com t'acomiades de l'ajuntament en eixe mateix correu?",
+        "opcions": ["Una abraçada forta,", "Cordialment,"],
+        "resposta_correcta": 1
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Si has d'allargar el text per a arribar a 150 paraules, què fas?",
+        "opcions": ["Afig connectors (D'una banda, d'altra banda, a més a més).", "Invente paraules barrejant castellà i valencià."],
+        "resposta_correcta": 0
+      },
+      {
+        "tipus": "test",
+        "pregunta": "Com s'escriu 'correo electrónico' en valencià normatiu?",
+        "opcions": ["Correu electrònic", "Correo electrónic"],
+        "resposta_correcta": 0
+      }
+    ],
+    "prompt_ia": "Actua com a corrector de l'Expressió Escrita CIEACOVA B1. Et lliuraré un text que simula un correu electrònic a l'Ajuntament queixant-me del soroll de les obres. Revisa que arribe a les 150 paraules. Avalua les fórmules de salutació i comiat. Penalitza l'ús de 'tindre que', l'ús de 'a' davant del CD, i valora sobre 20 punts (has de donar una nota final numèrica)."
+  },
+  {
+    "dia": 21,
+    "titol": "Simulació d'Interacció Completa",
+    "objectiu": "Integrar tot el vocabulari, pronoms febles (en, hi) i connectors en 5
