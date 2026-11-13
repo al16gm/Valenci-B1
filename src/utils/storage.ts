@@ -147,12 +147,12 @@ export function pickRandomReviewExercises(
 
   for (const day of days) {
     if (!completedSet.has(day.dia)) continue;
-    day.exercicis.forEach((exercise, idx) => {
+    day.blocs.foc_gramatical.exercicis.forEach((exercise, idx) => {
       pool.push({
         id: `${day.dia}-${idx}`,
         dia: day.dia,
         titol: day.titol,
-        teoria: day.teoria,
+        teoria: day.blocs.foc_gramatical.contingut,
         exercise,
       });
     });

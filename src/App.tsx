@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from 'react';
 import { CurriculumSidebar } from './components/CurriculumSidebar';
+import { DayHeader } from './components/DayHeader';
+import { DiaryCard } from './components/DiaryCard';
 import { ExerciseCard } from './components/ExerciseCard';
 import { OralPracticeCard } from './components/OralPracticeCard';
 import { ReviewModeView } from './components/ReviewModeView';
 import { SystemInstructionsModal } from './components/SystemInstructionsModal';
-import { TheoryCard } from './components/TheoryCard';
 import { TopBar } from './components/TopBar';
 import { TopProgressBar } from './components/TopProgressBar';
+import { VocabularyCard } from './components/VocabularyCard';
 import { DEFAULT_PLA_28_DIES, WEEK_GROUPS } from './data/pla28Dies';
 import type { DayPlan, StudyProgress } from './types';
 import {
@@ -33,6 +35,8 @@ export default function App() {
       .then((res) => (res.ok ? res.json() : null))
       .then((data: unknown) => {
         if (!active || !Array.isArray(data) || data.length === 0) return;
+        const first = data[0] as Partial<DayPlan>;
+        if (!first?.blocs?.foc_gramatical) return;
         setDays(data as DayPlan[]);
       })
       .catch(() => {
@@ -197,13 +201,17 @@ export default function App() {
                   </p>
                 </div>
 
-                <TheoryCard
+                <DayHeader
                   day={activeDayPlan}
                   isCompleted={isCurrentDayCompleted}
                   onPrevDay={() => handleSelectDay(activeDayPlan.dia - 1)}
                   onNextDay={() => handleSelectDay(activeDayPlan.dia + 1)}
                 />
 
+                {/* Card 1: Vocabulari (Fixació Visual) */}
+                <VocabularyCard block={activeDayPlan.blocs.lectura_vocabulari} />
+
+                {/* Card 2: Gramàtica i Llibre */}
                 <ExerciseCard
                   key={activeDayPlan.dia}
                   day={activeDayPlan}
@@ -213,9 +221,18 @@ export default function App() {
                   onNextDay={() => handleSelectDay(activeDayPlan.dia + 1)}
                 />
 
+                {/* Card 3: Interacció amb IA */}
                 <OralPracticeCard
                   key={`oral-${activeDayPlan.dia}`}
-                  day={activeDayPlan}
+                  dayNumber={activeDayPlan.dia}
+                  block={activeDayPlan.blocs.produccio_ia}
+                />
+
+                {/* Card 4: Metacognició i Diari */}
+                <DiaryCard
+                  block={activeDayPlan.blocs.diari_errors}
+                  currentDay={activeDayPlan.dia}
+                  onNextDay={() => handleSelectDay(activeDayPlan.dia + 1)}
                 />
               </>
             ) : (

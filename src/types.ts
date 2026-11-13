@@ -8,13 +8,40 @@ export interface DayExercise {
   explicacio?: string;
 }
 
+export interface VocabularyBlock {
+  titol: string;
+  contingut: string;
+  paraules_clau: string[];
+}
+
+export interface GrammarBlock {
+  titol: string;
+  contingut: string;
+  exercicis: DayExercise[];
+}
+
+export interface AiProductionBlock {
+  titol: string;
+  instruccions: string;
+  prompt: string;
+}
+
+export interface ErrorDiaryBlock {
+  titol: string;
+  contingut: string;
+}
+
+export interface DayBlocs {
+  lectura_vocabulari: VocabularyBlock;
+  foc_gramatical: GrammarBlock;
+  produccio_ia: AiProductionBlock;
+  diari_errors: ErrorDiaryBlock;
+}
+
 export interface DayPlan {
   dia: number;
   titol: string;
-  objectiu: string;
-  teoria: string;
-  exercicis: DayExercise[];
-  prompt_ia: string;
+  blocs: DayBlocs;
 }
 
 export interface WeekGroup {

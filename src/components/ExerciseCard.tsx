@@ -1,5 +1,6 @@
 import {
   ArrowRight,
+  BookOpen,
   CheckCircle2,
   ClipboardCheck,
   RotateCcw,
@@ -30,7 +31,8 @@ export function ExerciseCard({
   onResetQuiz,
   onNextDay,
 }: ExerciseCardProps) {
-  const { exercicis } = day;
+  const { foc_gramatical } = day.blocs;
+  const { exercicis } = foc_gramatical;
   const total = exercicis.length;
 
   const [selectedIndices, setSelectedIndices] = useState<Record<number, number>>(
@@ -97,20 +99,21 @@ export function ExerciseCard({
 
   return (
     <section
-      aria-labelledby="exercise-heading"
+      aria-labelledby="grammar-heading"
       className="rounded-xl border border-[#E4E0D8] bg-white p-6 sm:p-8"
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-[#E4E0D8] pb-4">
         <div>
+          <div className="flex items-center gap-2 text-xs font-semibold tracking-wide text-[#1D4ED8]">
+            <BookOpen className="h-4 w-4 shrink-0" aria-hidden="true" />
+            <span>Gramàtica i Llibre · Teoria i Test</span>
+          </div>
           <h2
-            id="exercise-heading"
-            className="font-display text-xl font-bold text-[#181A1F] sm:text-2xl"
+            id="grammar-heading"
+            className="font-display mt-1.5 text-xl font-bold text-[#181A1F] sm:text-2xl"
           >
-            Exercicis del Dia
+            {foc_gramatical.titol}
           </h2>
-          <p className="mt-1 text-xs text-[#52555E]">
-            Respon totes les preguntes i polsa «Comprovar Respostes» per a avaluar-les.
-          </p>
         </div>
 
         <span className="font-mono-tabular text-xs font-semibold text-[#52555E]">
@@ -120,7 +123,15 @@ export function ExerciseCard({
         </span>
       </div>
 
-      <form onSubmit={handleSubmit} className="mt-6 space-y-6">
+      {/* Theoretical explanation */}
+      <div className="mt-5 rounded-lg border border-[#E4E0D8] bg-[#FAF9F6] p-4 sm:p-5">
+        <p className="text-[15px] leading-[1.68] text-[#181A1F]">
+          {foc_gramatical.contingut}
+        </p>
+      </div>
+
+      {/* Interactive test iterating over foc_gramatical.exercicis */}
+      <form onSubmit={handleSubmit} className="mt-6 space-y-5">
         {exercicis.map((ex, qIdx) => {
           const chosenIdx = selectedIndices[qIdx];
           const isQuestionCorrect =
@@ -279,7 +290,6 @@ export function ExerciseCard({
           </div>
         )}
 
-        {/* Submit / Results Footer */}
         {!isSubmitted ? (
           <div className="flex flex-wrap items-center justify-between gap-3 pt-1">
             <span className="text-xs text-[#52555E]">
@@ -326,7 +336,7 @@ export function ExerciseCard({
                   <p className="mt-0.5 text-sm opacity-90">
                     {isPerfect
                       ? `Excel·lent! Has superat tots els exercicis del Dia ${day.dia}.`
-                      : `Has encertat ${score} de ${total}. Revisa les errades marcades en roig i torna-ho a intentar per a completar el dia.`}
+                      : `Has encertat ${score} de ${total}. Revisa les errades marcades en roig i torna-ho a intentar.`}
                   </p>
                 </div>
               </div>

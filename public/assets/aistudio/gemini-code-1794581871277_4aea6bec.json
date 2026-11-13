@@ -1,0 +1,309 @@
+[
+  {
+    "dia": 1,
+    "titol": "Morfologia Irregular i CD sense 'a'",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: L'entorn laboral",
+        "contingut": "Llig atentament aquestes paraules normatives. Prohibit traduir literalment del castellà:",
+        "paraules_clau": [
+          "El sou (Sueldo)",
+          "La vaga (Huelga)",
+          "Acomiadar (Despedir)",
+          "Les despeses (Los gastos)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: CD i Present",
+        "contingut": "Agafa el teu manual B1 i repassa els verbs voler, poder, saber i eixir. REGLA D'OR: El Complement Directe MAI porta la preposició 'a' en valencià, ni tan sols si és una persona. (Ex: Ahir vaig veure la teua germana).",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Ahir de vesprada vaig cridar ___ metge per telèfon.",
+            "opcions": ["al", "el"],
+            "resposta_correcta": 1
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Nosaltres no ___ vindre a la reunió de hui.",
+            "opcions": ["poguem", "podem"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Copia el prompt i envia'l a Gemini/ChatGPT. Llig les teues respostes en veu alta.",
+        "prompt": "Actua com un examinador oficial CIEACOVA B1. Et descriuré la meua rutina a l'oficina i els meus companys. La meua debilitat és que pose la preposició 'a' davant del Complement Directe de persona. Escolta'm i detín-me IMMEDIATAMENT si cometa aquest error o si conjugue malament els verbs 'voler' o 'eixir'. Fes-me 2 preguntes per a començar."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Anota a la teua llibreta física, com a màxim, les 2 errades morfosintàctiques que la IA t'haja corregit hui. Demà les llegirem abans de començar."
+      }
+    }
+  },
+  {
+    "dia": 2,
+    "titol": "La Narració i el Passat",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: L'habitatge i la ciutat",
+        "contingut": "Fixa visualment la forma i l'ortografia d'aquestes paraules d'alt rendiment:",
+        "paraules_clau": [
+          "La vorera (Acera)",
+          "El lloguer (Alquiler)",
+          "El vianant (Peatón)",
+          "Els afores (Las afueras)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: Passat vs Imperfet",
+        "contingut": "Ves a la secció de verbs del teu manual. Usa el Passat Perifràstic (vaig anar, va fer) per a accions concloses i evita el calc 'aní' o 'fiu'. Usa l'Imperfet (anava, feia) per a descripcions o hàbits passats.",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Quan ___ xicotet, m'agradava molt anar a la platja.",
+            "opcions": ["fui", "era"],
+            "resposta_correcta": 1
+          },
+          {
+            "tipus": "test",
+            "pregunta": "L'any passat ___ a viure de lloguer.",
+            "opcions": ["aní", "vaig anar"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Practicarem el relat de passat (Monòleg Part 1).",
+        "prompt": "Actua com a examinador B1. Et relataré com era el meu barri d'infància i quins canvis hi ha hagut. Para atenció a l'ús del passat perifràstic vs imperfet. Si faig un calc usant el pretèrit indefinit simple castellà ('aní', 'visquí'), marca 'ALERTA DE CALC' i obliga'm a repetir l'oració. Planteja'm el tema per a començar."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Escriu al teu diari una frase correcta usant 'vaig anar' i una altra amb 'era'."
+      }
+    }
+  },
+  {
+    "dia": 3,
+    "titol": "La Neteja de Calcs: Impersonal i Obligació",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: La tecnologia",
+        "contingut": "Temàtica clau per als debats orals. Vigila l'escriptura:",
+        "paraules_clau": [
+          "L'ordinador (Ordenador)",
+          "La pantalla (Pantalla - vigila la ela geminada inexistent, és només ll)",
+          "El correu electrònic (Correo)",
+          "La xarxa social (Red social)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: Haver-hi i Caldre",
+        "contingut": "Aquesta és l'errada que més se suspén. El verb haver-hi és impersonal: 'Hi ha moltes persones' (MAI 'hi han'). L'obligació: 'tindre que' està prohibit. S'usa 'haver de + infinitiu' (he d'anar) o 'caldre' (cal anar).",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Al nou ordinador ___ instal·lats molts programes.",
+            "opcions": ["hi han", "hi ha"],
+            "resposta_correcta": 1
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Demà ___ actualitzar el sistema informàtic.",
+            "opcions": ["tinc que", "he d'"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Roleplay estricte. Copia i usa el micròfon.",
+        "prompt": "Farem un roleplay B1. Ets el tècnic informàtic de la meua empresa i jo un treballador. Explica'm unes normes estrictes sobre l'ús dels ordinadors. Jo respondré confirmant que ho he entés usant 'haver de' o 'caldre', i descrivint quins elements 'hi ha' a la meua taula. Si dic 'tindre que' o 'hi han', suspén-me immediatament i explica'm l'error."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Escriu la teua norma d'or: 'En valencià mai hi han, sempre hi ha. En valencià mai tinc que, sempre he de'."
+      }
+    }
+  },
+  {
+    "dia": 4,
+    "titol": "El Règim de Preposicions: Per, Per a, i Que",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: Medi Ambient",
+        "contingut": "Assegura't de conéixer aquests substantius essencials per a parlar de reciclatge:",
+        "paraules_clau": [
+          "Els fems / La brossa (Basura)",
+          "L'escalfament global (Calentamiento)",
+          "El medi ambient (Medio ambiente)",
+          "Reutilitzar (Reutilizar)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: Caiguda de Preposició",
+        "contingut": "'Per a' indica finalitat i destinació. 'Per' indica causa i lloc. PERÒ ALERTA: Davant de la paraula 'que' (conjunció), totes les preposicions (a, de, en, amb) s'esborren. Exemple: M'alegre (de) que vingues -> M'alegre que vingues.",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Tots estem d'acord ___ cal reciclar més els fems.",
+            "opcions": ["amb que", "que"],
+            "resposta_correcta": 1
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Aquest contenidor és només ___ l'orgànica.",
+            "opcions": ["per a", "per"],
+            "resposta_correcta": 0
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Forçarem la construcció d'opinions amb 'que'.",
+        "prompt": "Ets un entrevistador fent una enquesta al carrer sobre el reciclatge i els fems. Fes-me preguntes on jo haja de respondre amb estructures com 'estic segur que', 'm'alegre que' o 'estic d'acord que'. Avalua estrictament que jo NO utilitze preposicions davant del 'que' (com 'de que' o 'amb que')."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Has fet alguna caiguda de preposició malament a l'oral? Escriu l'oració completa en verd a la llibreta."
+      }
+    }
+  },
+  {
+    "dia": 5,
+    "titol": "Substitució Bàsica: Pronoms Feble de CD i Neutre",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: Falsos Amics Quotidians",
+        "contingut": "Erradica aquestes traduccions directes que l'examinador detectarà de seguida:",
+        "paraules_clau": [
+          "Potser / A la millor (A lo mejor)",
+          "La malaltia (La enfermedad)",
+          "Buidar / Llevar (Despejar)",
+          "Tastar (Probar un menjar)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: El, La, Els, Les, Ho",
+        "contingut": "Ves a la lliçó de pronoms del teu manual. Substituïm les coses concretes (el cotxe) amb 'el, la, els, les'. Substituïm les idees abstractes o frases ('això', 'que plourà') amb 'ho'.",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Has portat la llibreta a classe? Sí, ___ he portada.",
+            "opcions": ["l'", "la"],
+            "resposta_correcta": 0
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Saps si demà hi haurà vaga? No, no ___ sé.",
+            "opcions": ["el", "ho"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Conversa àgil d'afirmació i negació pronominal.",
+        "prompt": "Farem un joc ràpid de preguntes i respostes B1 sobre oci i temps lliure. A cada pregunta teua (ex: 'Llegeixes molts llibres?'), jo he de respondre afirmativament o negativament substituint obligatòriament l'objecte per un pronom de CD (el, la, els, les) o neutre (ho). Avisa'm si repetisc la paraula original en compte de pronominalitzar."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Anota qualsevol confusió que hages tingut entre 'el/la' i 'ho'."
+      }
+    }
+  },
+  {
+    "dia": 6,
+    "titol": "Cohesió Textual: Connectors i Argumentació",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Vocabulari: Connectors B1",
+        "contingut": "Memoritzar aquests connectors i usar-los suma 4 punts automàtics a l'àrea de Cohesió:",
+        "paraules_clau": [
+          "D'una banda, ... d'altra banda,",
+          "Tanmateix / Així i tot, (Sin embargo)",
+          "A més a més, (Además)",
+          "Al meu parer, (En mi opinión)"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: L'ordre de l'oració",
+        "contingut": "En una argumentació B1 cal abandonar la coordinació simple amb 'i' o 'però'. Intenta iniciar les teues frases de contra-argumentació amb 'Tanmateix'. Usa la plantilla: Opinió + Causa + Connector d'Addició + Exemple.",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "És un pis amb un lloguer car; ___, l'he agafat perquè té molta llum.",
+            "opcions": ["tanmateix", "aleshores"],
+            "resposta_correcta": 0
+          },
+          {
+            "tipus": "test",
+            "pregunta": "___ crec que el transport públic hauria de ser gratuït.",
+            "opcions": ["A la meua opinió", "Al meu parer"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Aplica l'esquema d'opinió en viu.",
+        "prompt": "Assumeix el rol d'examinador. Demana'm la meua opinió sobre 'Els telèfons mòbils a les aules'. Et respondré de forma llarga usant una plantilla argumentativa. Avalua exclusivament la meua 'Coherència i Cohesió' detectant si he usat 'Al meu parer', 'A més a més' i 'Tanmateix'. Penalitza'm si el meu discurs sona desordenat."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Quants connectors has sigut capaç d'utilitzar de memòria de manera natural? Anota els que se't resisteixen."
+      }
+    }
+  },
+  {
+    "dia": 7,
+    "titol": "Simulació Setmanal Integral de Gramàtica i Oral",
+    "blocs": {
+      "lectura_vocabulari": {
+        "titol": "1. Repàs Visual de Vocabulari",
+        "contingut": "Torna a llegir les paraules treballades aquesta setmana per a activar-les en la teua memòria a llarg termini:",
+        "paraules_clau": [
+          "Sou, Vaga, Despeses",
+          "Lloguer, Vorera",
+          "Ordinador, Fems",
+          "Tanmateix, Potser"
+        ]
+      },
+      "foc_gramatical": {
+        "titol": "2. Gramàtica de Llibre: Test de Síntesi",
+        "contingut": "Tanca el manual. Demostra que el treball d'aquests 6 dies ha bloquejat les traduccions del castellà.",
+        "exercicis": [
+          {
+            "tipus": "test",
+            "pregunta": "Identifica l'error greu en esta frase: 'Hi han persones que tenen que estudiar molt'.",
+            "opcions": ["L'oració no té errors per a un B1.", "Té dos errors: Hi han (ha de ser 'hi ha') i tenen que (ha de ser 'han de')."],
+            "resposta_correcta": 1
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Jo estic d'acord ___ has dit la veritat.",
+            "opcions": ["que", "amb que"],
+            "resposta_correcta": 0
+          },
+          {
+            "tipus": "test",
+            "pregunta": "Ahir vaig veure ___ director de l'oficina al supermercat.",
+            "opcions": ["al", "el"],
+            "resposta_correcta": 1
+          }
+        ]
+      },
+      "produccio_ia": {
+        "titol": "3. Pràctica Oral amb IA",
+        "instruccions": "Prova de foc setmanal. Uneix-ho tot en un monòleg lliure.",
+        "prompt": "Actua com el tribunal oficial B1. Planteja'm un monòleg sobre 'L'impacte de la tecnologia en el món laboral'. Quan jo lliure l'àudio, avalua 3 coses amb màxima duresa: 1. Ús de la preposició 'a' davant de CD. 2. Qualsevol 'tindre que' o 'hi han'. 3. Si he utilitzat el vocabulari laboral i connectors."
+      },
+      "diari_errors": {
+        "titol": "4. Diari d'Errors",
+        "contingut": "Tanquem la setmana 1. Revisa la llibreta d'errors sencera. Llig únicament les correccions normatives que has anotat, mai els errors."
+      }
+    }
+  }
+]

@@ -1,21 +1,22 @@
 import { Check, ChevronDown, ChevronUp, Copy, Mic } from 'lucide-react';
 import { useState } from 'react';
 import { SYSTEM_INSTRUCTIONS } from '../data/pla28Dies';
-import type { DayPlan } from '../types';
+import type { AiProductionBlock } from '../types';
 import { copyTextToClipboard } from '../utils/storage';
 
 interface OralPracticeCardProps {
-  day: DayPlan;
+  dayNumber: number;
+  block: AiProductionBlock;
 }
 
-export function OralPracticeCard({ day }: OralPracticeCardProps) {
+export function OralPracticeCard({ dayNumber, block }: OralPracticeCardProps) {
   const [copiedPrompt, setCopiedPrompt] = useState(false);
   const [copiedSystem, setCopiedSystem] = useState(false);
   const [copiedBundle, setCopiedBundle] = useState(false);
-  const [showSystem, setShowSystem] = useState(true);
+  const [showSystem, setShowSystem] = useState(false);
 
   const handleCopyPrompt = async () => {
-    const ok = await copyTextToClipboard(day.prompt_ia);
+    const ok = await copyTextToClipboard(block.prompt);
     if (ok) {
       setCopiedPrompt(true);
       window.setTimeout(() => setCopiedPrompt(false), 2500);
@@ -31,7 +32,7 @@ export function OralPracticeCard({ day }: OralPracticeCardProps) {
   };
 
   const handleCopyBundle = async () => {
-    const bundle = `INSTRUCCIONS DE SISTEMA:\n${SYSTEM_INSTRUCTIONS}\n\nPROMPT DEL DIA ${day.dia}:\n${day.prompt_ia}`;
+    const bundle = `INSTRUCCIONS DE SISTEMA:\n${SYSTEM_INSTRUCTIONS}\n\nPROMPT DEL DIA ${dayNumber}:\n${block.prompt}`;
     const ok = await copyTextToClipboard(bundle);
     if (ok) {
       setCopiedBundle(true);
@@ -48,14 +49,15 @@ export function OralPracticeCard({ day }: OralPracticeCardProps) {
         <div>
           <div className="flex items-center gap-2 text-xs font-semibold tracking-wide text-[#1D4ED8]">
             <Mic className="h-4 w-4 shrink-0" aria-hidden="true" />
-            <span>Pràctica Oral · Simulacre amb IA</span>
+            <span>Interacció amb IA · Simulacre Oral</span>
           </div>
           <h2
             id="oral-practice-heading"
             className="font-display mt-1.5 text-xl font-bold text-[#181A1F] sm:text-2xl"
           >
-            Entrena en veu alta amb Gemini o ChatGPT
+            {block.titol}
           </h2>
+          <p className="mt-1.5 text-sm text-[#374151]">{block.instruccions}</p>
         </div>
 
         <button
@@ -80,10 +82,10 @@ export function OralPracticeCard({ day }: OralPracticeCardProps) {
       {/* Daily prompt block */}
       <div className="mt-5 rounded-lg border border-[#DBEAFE] bg-white p-5">
         <p className="text-xs font-semibold text-[#52555E]">
-          Prompt específic del Dia {String(day.dia).padStart(2, '0')}
+          Prompt del Dia {String(dayNumber).padStart(2, '0')}
         </p>
         <p className="mt-2 text-[15px] leading-relaxed text-[#181A1F]">
-          {day.prompt_ia}
+          {block.prompt}
         </p>
 
         <div className="mt-5 flex flex-wrap items-center gap-3">
@@ -99,24 +101,24 @@ export function OralPracticeCard({ day }: OralPracticeCardProps) {
             {copiedPrompt ? (
               <>
                 <Check className="h-4 w-4 shrink-0" aria-hidden="true" />
-                <span>Prompt copiat al porta-retalls!</span>
+                <span>Prompt copiat!</span>
               </>
             ) : (
               <>
                 <Copy className="h-4 w-4 shrink-0" aria-hidden="true" />
-                <span>Copiar Prompt per a IA</span>
+                <span>Copiar Prompt</span>
               </>
             )}
           </button>
 
           <span className="text-xs text-[#52555E]">
-            Enganxa’l directament a Gemini o ChatGPT i activa el mode veu.
+            Enganxa’l a Gemini o ChatGPT i activa el micròfon.
           </span>
         </div>
       </div>
 
-      {/* Visible System Instructions reference */}
-      <div className="mt-5 rounded-lg border border-[#DBEAFE] bg-white/85">
+      {/* Collapsible System Instructions reference */}
+      <div className="mt-4 rounded-lg border border-[#DBEAFE] bg-white/85">
         <button
           type="button"
           onClick={() => setShowSystem((prev) => !prev)}
